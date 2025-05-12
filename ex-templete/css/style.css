@@ -1,0 +1,129 @@
+
+
+
+
+/* base style start here */
+body{
+    font-family: "just" ,sans-serif;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 20px;
+    background: url(/images/Line.svg) no-repeat center center;
+    background-size: cover;
+     background-attachment: fixed;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+h1 ,h2{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1200px;
+    }
+    
+}
+
+/* header style start here */
+
+.header{
+    display: flex;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 44px 0;
+}
+.brand-logo{
+    display: flex;
+    width: 177px;
+
+
+}
+.brand-logo img {
+    max-width: 100%;
+}
+.navigation{
+    display: inline-flex;
+    width: auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+.navigation ul{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+
+}
+.navigation ul li {
+    display: flex;
+    width: auto;
+    padding: 0 20px;
+}
+.navigation ul li a{
+    color: #29362f;
+    font-size: 20px;
+    text-decoration: none;
+}
+.toggle_search{
+    display: none;
+}
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+.hero-section{
+    display: flex;
+    width: 100%;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+.banner-content{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+
+}
+.banner-content .samll-wrapper{
+    display: flex;
+    width: 100%;
+    max-width: 434px;
+
+}
+.banner-content .samll-wrapper h1{
+    font-size: 65px;
+    line-height: 125%;
+    font-weight: 400;
+    margin-bottom: 18px;
+
+}
+.banner-content .small-wrapper p {
+    font-size: 22px;
+    line-height: 150%;
+    color: #4D5053;
+    margin: 0 0 20px;
+}

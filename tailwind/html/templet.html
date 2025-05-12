@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>templet</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+</head>
+
+<body class="bg-cyan-400">
+    <!-- start header -->
+
+    <nav class="p-3 bg-white shadow md:flex md:items-center md:justify-between sticky">
+        <div class="flex justify-between items-center">
+            <span class="text-2xl font-[Poppins] cursor-pointer"> <img class="h-10 inline rounded-lg mr-4"
+                    src="/img/logo-1861421_1280.png" alt="">Shiv Computers</span>
+
+        </div>
+
+        <ul class="md:flex  static inline-flex ">
+            <li class="mx-3 "><a href="" class="text-xl hover:text-red-600 duration-500">Home</a></li>
+            <li class="mx-3 "><a href="" class="text-xl hover:text-red-600 duration-500">About</a></li>
+            <li class="mx-3 "><a href="" class="text-xl hover:text-red-600 duration-500">Blog</a></li>
+            <li class="mx-3 "><a href="" class="text-xl hover:text-red-600 duration-500">Gallery</a></li>
+            <li class="mx-3 "><a href="" class="text-xl hover:text-red-600 duration-500">Contact </a></li>
+
+
+
+        </ul>
+        <form class="d-flex cursor-pointer" role="search ">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+    </nav>
+
+
+
+
+
+
+    <!-- header ended  -->
+
+    <!-- start carousel -->
+    <main>
+
+    <div class="container mt-5  py-8  mb-5 ">
+
+
+
+        <div id="carouselExampleIndicators" class="carousel slide  ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-3xl">
+                <div class="carousel-item active">
+                    <img src="/img/pexels-jopwell-2422286.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/pexels-life-of-pix-7974.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/pexels-serpstat-177219-572056.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev ">
+                <span class="carousel-control-prev-icon  " aria-hidden="true"></span>
+                <span class="visually-hidden black ">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </div>
+
+
+    <!--  carousel end -->
+
+
+    <!--image with content banner-->
+
+    <div class="container  mb-5 mt-5  ">
+
+        <div class="relative w-full h-98">
+            <img src="/img/pexels-karolina-grabowska-8092315.jpg" alt="Banner Image" class="rounded-full w-full h-90">
+            <div class=" text-black-900 font-serif items-center absolute inset-7 mx-36 my-20">
+                <h2 class="text-4xl font-bold mb-4">Content Title</h2>
+                <p class="text-lg font-sans">This is the content description that overlays the image.</p>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+    <!--image with content banner-->
+
+
+
+    <!--slick slider start-->
+
+    <div class="container  my-8 mb-5 mt-5 ">
+        <div class="slider  w-90 h-64  mx-80 ">
+            <div>
+                <img src="/img/pexels-fauxels-3184657.jpg" alt="Slide 1" class="w-full h-64">
+            </div>
+            <div>
+                <img src="/img/pexels-cottonbro-4709285.jpg" alt="Slide 2" class="w-full h-64
+                ">
+            </div>
+            <div>
+                <img src="/img/pexels-fauxels-3184657.jpg" alt="Slide 3" class="w-full h-64">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+
+    <!--slick slider ended-->
+
+
+    <!-- three column layout -->
+
+<div class="container mb-5 mt-5">
+
+
+    <div class="grid grid-cols-3 gap-2">
+        <div class="bg-blue-400 w-full rounded-2xl"><div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="/img/download (1).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/download (2).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/download.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></div>
+        <div class="bg-blue-400 w-full rounded-2xl">
+
+<marquee scrollamount="10"  direction="down" height="390px  " class="mx-32 text-2xl ">   <img src="/img/download (1).jpg" alt=""> Hello Google</marquee>
+
+
+        </div>
+        <div class=" bg-gray-500 w-full rounded-2xl ">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mt-16 rounded-2xl ">
+                  <div class="carousel-item active">
+                    <img src="/img/pexels-fauxels-3184657.jpg" class="d-block w-100 " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/pexels-cottonbro-4709285.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/pexels-karolina-grabowska-8092315.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+        </div>
+      
+
+</div>
+
+
+
+
+    <!-- three column layout-->
+
+
+
+    <!-- footer section -->
+
+
+
+
+    <footer class="bg-gray-700 py-12 mt-5 ">
+<div class="container mx-auto px-2 text-white">
+    <div class="flex justify-between"> 
+
+<div >
+
+    <h2 class="text-3xl font-bold mb-4">This is footer</h2>
+    <ul class=" flex justify-between"><li><a href=""><i class="bi bi-facebook"></i></a></li>
+        <li><i class="bi bi-messenger"></i></a></li>
+        <li><a href=""><i class="bi bi-whatsapp"></i></a></li>
+    
+    </ul>
+</div>
+
+<div >
+
+    <h2 class="text-3xl font-bold mb-4">Learn More</h2>
+    <ul class="items-center mx-10"><li><a href="">home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+    
+    
+    
+    
+    </ul>
+</div>
+<div >
+
+    <h2 class="text-3xl font-bold mb-4 font-semibold">Compny </h2>
+    <p>&copy; 2024 Your Company. All rights reserved</p>
+</div>
+
+    </div>
+
+
+
+
+</div>
+
+
+
+    </footer>
+    <!-- footer section -->
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

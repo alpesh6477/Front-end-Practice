@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-js": "^1.0.0",
+    "node-sass": "^9.0.0"
+  }
+}

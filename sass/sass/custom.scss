@@ -1,0 +1,51 @@
+// variables
+// @import "variable.scss"
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  height: 50px;
+  background: $maincolor;
+  padding-top: 2px;
+
+  h1 {
+    color: white;
+    text-align: center;
+
+  }
+
+  &:hover {
+    background-color: $mainhover;
+  }
+
+}
+
+main {
+  width: 1100px;
+  margin: auto;
+  font-size: 20px;
+  background-color: $maincolor;
+
+  p {
+    margin-top: 10px;
+
+    &:hover {
+      background-color: $mainhover;
+    }
+  }
+}
+
+
+// operators 
+
+.abc {
+
+  padding: 10px==10px;
+}
